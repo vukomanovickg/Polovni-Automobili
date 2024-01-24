@@ -22,8 +22,8 @@ public class HomePage extends BaseMethods {
             log.info("Success: Site have exact 8 dropdown filters:");
 //            System.out.println("Success: Site have exact 8 dropdown filters:");
             for (int i= 0; i<numberOfDropDowns; i++) {
-//                log.info("item"+i+": {}",elements.get(i).getDomProperty("title"));
-                System.out.println("item"+i+": "+elements.get(i).getDomProperty("title"));
+                log.info("item"+i+": {}",elements.get(i).getDomProperty("title"));
+//                System.out.println("item"+i+": "+elements.get(i).getDomProperty("title"));
             }
             return this;
         }else if(numberOfDropDowns>8){
